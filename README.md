@@ -14,6 +14,10 @@ With SandFS, multiple sandboxing layers could be stacked on top of each other,
 with each higher layer further enforcing its own policies to provide a restricted
 view of the lower. SandFS imposes less than 10% performance overhead.
 
+### Publications
+
+APSys'18 Paper (https://dl.acm.org/citation.cfm?id=3265734)
+
 ### Homepage
 
 [Homepage is hosted here](https://sandfs.github.io)
