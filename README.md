@@ -18,6 +18,16 @@ view of the lower. SandFS imposes less than 10% performance overhead.
 
 APSys'18 Paper (https://dl.acm.org/citation.cfm?id=3265734)
 
+### Build/Install SandFS Kernel
+
+$ git clone https://github.com/sandfs/SandFS-Kernel
+$ cd SandFS-Kernel
+$ make menuconfig
+-> File Systems
+   -> Miscellaneous filesystems
+      -> Sandfs sandboxing file system
+$ make -j4
+
 ### Homepage
 
 [Homepage is hosted here](https://sandfs.github.io)
