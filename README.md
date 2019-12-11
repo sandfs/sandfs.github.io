@@ -62,6 +62,16 @@ $ LLC=llc CLANG=clang make
 * [Open Source Summit, 2019 Presentation](https://static.sched.com/hosted_files/osseu19/20/OSSEUSandFS.pdf)
 * [LWN article](https://lwn.net/Articles/803890/)
 
+### Build/Install SandFS Kernel
+
+$ git clone https://github.com/sandfs/SandFS-Kernel
+$ cd SandFS-Kernel
+$ make menuconfig
+-> File Systems
+   -> Miscellaneous filesystems
+      -> Sandfs sandboxing file system
+$ make -j4
+
 ### Homepage
 
 [Homepage is hosted here](https://sandfs.github.io)
