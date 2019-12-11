@@ -1,7 +1,7 @@
 ### Description
 
 File system sandboxing is a useful technique to protect sensitive data from
-untrusted binaries. However, exsiting approaches do not allow fine-grained
+untrusted binaries. However, existing approaches do not allow fine-grained
 control over policy enforcement, require superuser privileges, or incur high
 performance overhead. 
 
